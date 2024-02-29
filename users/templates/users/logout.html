@@ -1,0 +1,11 @@
+{% extends "courses/base.html" %} {% block course_content %}
+<div class="container mt-5 mb-5 p-5">
+  <h2 class="text-center">You have been loged out</h2>
+  <div class="border-top pt-3">
+    <small class="text-muted">
+      <a href="{% url 'login' %}">Log In Again</a>
+    </small>
+  </div>
+</div>
+
+{% endblock course_content%}
